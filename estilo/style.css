@@ -18,8 +18,26 @@ header{
     padding: 10px;
     text-align: center;
  }
+
+#burger{
+   background-color: rgb(65, 65, 65);
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+   width: 100px;
+   margin: auto;
+   border-radius: 10px;
+}
+
+#burger:hover{
+   background-color: white;
+   color: black;
+}
+
  menu{
-    display: block;
+    display: none;
  }
  menu > ul{
     list-style-type: none;
