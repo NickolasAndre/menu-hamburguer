@@ -37,6 +37,7 @@ header{
 }
 
  menu{
+   text-align: center;
     display: none;
  }
  menu > ul{
